@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" method="upgrade" client="site">
+    <name>HB</name>
+    <creationDate>April 2012</creationDate>
+    <author>Milan Zink</author>
+    <authorEmail>zeten30@gmail.com</authorEmail>
+    <authorUrl>https://sites.google.com/site/zeten30/</authorUrl>
+    <copyright>None</copyright>
+    <license>GNU General Public License version 2 or later</license>
+    <version>1.5.0</version>
+    <description>Šablona webu Hnutí Brontosaurus</description>
+    <files> 
+        <folder>css</folder>
+        <folder>html</folder>
+        <folder>images</folder>
+        <folder>js</folder>
+        <folder>language</folder>
+        <filename>index.php</filename>
+        <filename>index.html</filename>
+        <filename>favicon.ico</filename>
+        <filename>templateDetails.xml</filename>
+        <filename>template_preview.png</filename>
+        <filename>template_thumbnail.png</filename>
+        <filename>component.php</filename>
+        <filename>error.php</filename>
+    </files>
+
+    <positions>
+        <position>hb-menu-v-hlavicce</position>
+        <position>hb-vyhledavani</position>
+        <position>hb-panel-pod-hlavickou</position>
+        <position>hb-panel-s-obrazky</position>
+        <position>hb-navigace-vlevo</position>
+        <position>hb-promo-vlevo</position>
+        <position>hb-pravy-panel</position>
+        <position>hb-drobeckova-navigace</position>
+        <position>hb-paticka-stranky</position>
+        <position>hb-nad-hlavnim-obsahem</position>
+        <position>hb-pod-hlavnim-obsahem</position>
+    </positions>
+
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.tpl_hb.ini</language>
+        <language tag="en-GB">en-GB/en-GB.tpl_hb.sys.ini</language>
+        <language tag="cs-CZ">cs-CZ/cs-CZ.tpl_hb.ini</language>
+        <language tag="en-GB">cs-CZ/cs-CZ.tpl_hb.sys.ini</language>
+    </languages>
+
+    <config>
+        <fields name="params">
+      
+        </fields>
+    </config>
+</extension>
