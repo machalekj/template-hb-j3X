@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
-<extension version="2.5" type="template" method="upgrade" client="site">
+<extension version="3.0" type="template" method="upgrade" client="site">
     <name>HB</name>
-    <creationDate>April 2012</creationDate>
+    <creationDate>2014/12</creationDate>
     <author>Milan Zink</author>
     <authorEmail>zeten30@gmail.com</authorEmail>
-    <authorUrl>https://sites.google.com/site/zeten30/</authorUrl>
+    <authorUrl>https://github.com/zeten30</authorUrl>
     <copyright>None</copyright>
     <license>GNU General Public License version 2 or later</license>
-    <version>1.5.0</version>
+    <version>1.0.0</version>
     <description>Šablona webu Hnutí Brontosaurus</description>
     <files> 
         <folder>css</folder>
