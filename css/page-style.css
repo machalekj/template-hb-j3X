@@ -164,6 +164,16 @@ body.normal #header_bck {
     color: #898;
 }
 
+ul.breadcrumb  {
+    list-style-type: none;
+    margin: 0;
+}
+
+ul.breadcrumb  li{
+    display: inline;
+    padding-left: 3px;
+}
+
 .round_decor_top {
     position: absolute;
     top: -18px;
