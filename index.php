@@ -2,6 +2,8 @@
 defined('_JEXEC') or die;
 /* The following line loads the MooTools JavaScript Library */
 JHtml::_('behavior.framework', true);
+JHtml::_('jquery.framework');                                                                           
+JHtml::_('jquery.ui');
 /* The following line gets the application object for things like displaying the site name */
 $app = JFactory::getApplication();
 
