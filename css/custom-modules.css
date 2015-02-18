@@ -411,4 +411,12 @@ div.mod_bis_filter #mod-bis-filter-reset {
   color: #444;
 }
 
+#Forms
+div.alert-error {
+    background: #fdc;
+    padding: 10px
+}
 
+div.alert-error h4 {
+    color: #f00;
+}
