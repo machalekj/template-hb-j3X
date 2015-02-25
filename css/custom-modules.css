@@ -412,11 +412,22 @@ div.mod_bis_filter #mod-bis-filter-reset {
 }
 
 #Forms
-div.alert-error {
+body div.alert-error {
     background: #fdc;
-    padding: 10px
 }
 
-div.alert-error h4 {
+body div.alert-error h4 {
     color: #f00;
+}
+
+body div.alert-message {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  background: #eee; 
+}
+
+body div.alert-message a.close {
+  visibility: hidden;
+  display: none;
 }
